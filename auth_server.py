@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-# ========= 真正密钥只存在服务器这里！不要放到安卓APK =========
+
 REAL_AUTH_KEY = "Xiao_Pa_Cai_2026_XiaoPaCai_8a7f6d5c4b3a2918273645"
 
 @app.route("/api/checkAuth", methods=["POST"])
